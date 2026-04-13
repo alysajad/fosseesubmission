@@ -1,13 +1,22 @@
 services:
   - type: web
-    name: fossee-backend
+    name: fossee-workshop
     env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn workshop_portal.wsgi:application"
+    plan: free
+    buildCommand: "pip install -r requirements.txt && python manage.py collectstatic --noinput"
+    startCommand: "python manage.py migrate && gunicorn workshop_portal.wsgi:application --bind 0.0.0.0:$PORT --workers 2"
     envVars:
+      - key: DEBUG
+        value: "False"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALLOWED_HOSTS
+        value: ".onrender.com"
+      - key: CSRF_TRUSTED_ORIGINS
+        value: "https://*.onrender.com"
       - key: DB_ENGINE
         value: sqlite3
       - key: DB_NAME
         value: db.sqlite3
       - key: CORS_ALLOW_ALL_ORIGINS
-        value: "True"
+        value: "False"

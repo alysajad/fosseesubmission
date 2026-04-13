@@ -107,3 +107,33 @@ Add your final before/after UI screenshots here:
 - Main Django apps: `workshop_app`, `statistics_app`, `teams`, `cms`
 - Default local database: `db.sqlite3`
 - Additional docs: `docs/Getting_Started.md`
+
+## Free Hosting (Recommended: Render)
+
+### Why Render
+
+- Free tier supports Django + Gunicorn directly
+- SSL, deploy logs, and GitHub auto-deploy included
+- Works well with this monolith setup (frontend static + Django backend)
+
+### Deploy Steps
+
+1. Push this repo to GitHub.
+2. In Render, click **New +** -> **Blueprint** and select your repo.
+3. Render will detect `render.yaml` and create the `fossee-workshop` service.
+4. Wait for build and deploy.
+5. Open your Render URL (`https://<service-name>.onrender.com`).
+
+### Production env configured in `render.yaml`
+
+- `DEBUG=False`
+- generated `SECRET_KEY`
+- `ALLOWED_HOSTS=.onrender.com`
+- `CSRF_TRUSTED_ORIGINS=https://*.onrender.com`
+- `collectstatic` runs at build
+- `migrate` runs at startup
+
+### Important free-tier note
+
+- If you keep SQLite in production, data can reset on service redeploy/restart.
+- For persistent production data, attach a managed Postgres database.

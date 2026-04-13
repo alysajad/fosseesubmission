@@ -12,14 +12,22 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 
 import os
 import sys
-from local_settings import (
-    EMAIL_HOST,
-    EMAIL_PORT,
-    EMAIL_HOST_USER,
-    EMAIL_HOST_PASSWORD,
-    EMAIL_USE_TLS,
-    SENDER_EMAIL
-)
+try:
+    from local_settings import (
+        EMAIL_HOST,
+        EMAIL_PORT,
+        EMAIL_HOST_USER,
+        EMAIL_HOST_PASSWORD,
+        EMAIL_USE_TLS,
+        SENDER_EMAIL
+    )
+except ModuleNotFoundError:
+    EMAIL_HOST = "localhost"
+    EMAIL_PORT = 1025
+    EMAIL_HOST_USER = ""
+    EMAIL_HOST_PASSWORD = ""
+    EMAIL_USE_TLS = False
+    SENDER_EMAIL = "noreply@example.com"
 
 from decouple import config
 

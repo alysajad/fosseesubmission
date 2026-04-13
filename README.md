@@ -87,10 +87,6 @@ I handled this by validating each critical flow end-to-end (login, role redirect
 
 ## Visual Showcase
 
-### Assignment Brief Reference
-
-![Task Brief - Page 1](docs/screenshots/submission-criteria-1.png)
-![Task Brief - Page 2](docs/screenshots/submission-criteria-2.png)
 
 ### Before/After Screenshots
 

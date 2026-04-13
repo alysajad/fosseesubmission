@@ -1,0 +1,469 @@
+{
+  "_Alert-C349ao20.css": {
+    "file": "assets/Alert-C349ao20.css",
+    "src": "_Alert-C349ao20.css"
+  },
+  "_Alert-C_vS7CYq.js": {
+    "file": "assets/Alert-C_vS7CYq.js",
+    "name": "Alert",
+    "imports": [
+      "src/main.jsx"
+    ],
+    "css": [
+      "assets/Alert-C349ao20.css"
+    ]
+  },
+  "_AnimatedContainer-BajsBZOH.js": {
+    "file": "assets/AnimatedContainer-BajsBZOH.js",
+    "name": "AnimatedContainer",
+    "imports": [
+      "src/main.jsx",
+      "_proxy-BMb16-zJ.js"
+    ]
+  },
+  "_AuroraBg-DcFvToSs.js": {
+    "file": "assets/AuroraBg-DcFvToSs.js",
+    "name": "AuroraBg",
+    "imports": [
+      "src/main.jsx",
+      "_proxy-BMb16-zJ.js"
+    ]
+  },
+  "_Badge-BjU-i2zX.js": {
+    "file": "assets/Badge-BjU-i2zX.js",
+    "name": "Badge",
+    "imports": [
+      "src/main.jsx"
+    ],
+    "css": [
+      "assets/Badge-C0jl0PCU.css"
+    ]
+  },
+  "_Badge-C0jl0PCU.css": {
+    "file": "assets/Badge-C0jl0PCU.css",
+    "src": "_Badge-C0jl0PCU.css"
+  },
+  "_BarChart-CGyvT_1j.js": {
+    "file": "assets/BarChart-CGyvT_1j.js",
+    "name": "BarChart",
+    "imports": [
+      "src/main.jsx"
+    ]
+  },
+  "_Button-BNXsJe1U.js": {
+    "file": "assets/Button-BNXsJe1U.js",
+    "name": "Button",
+    "imports": [
+      "src/main.jsx",
+      "_proxy-BMb16-zJ.js"
+    ],
+    "css": [
+      "assets/Button-DJgveVJg.css"
+    ]
+  },
+  "_Button-DJgveVJg.css": {
+    "file": "assets/Button-DJgveVJg.css",
+    "src": "_Button-DJgveVJg.css"
+  },
+  "_Card-B_yX1CU4.css": {
+    "file": "assets/Card-B_yX1CU4.css",
+    "src": "_Card-B_yX1CU4.css"
+  },
+  "_Card-CcJ9tOA7.js": {
+    "file": "assets/Card-CcJ9tOA7.js",
+    "name": "Card",
+    "imports": [
+      "src/main.jsx",
+      "_proxy-BMb16-zJ.js"
+    ],
+    "css": [
+      "assets/Card-B_yX1CU4.css"
+    ]
+  },
+  "_Input-4TFEiNt8.css": {
+    "file": "assets/Input-4TFEiNt8.css",
+    "src": "_Input-4TFEiNt8.css"
+  },
+  "_Input-w9vKZgSM.js": {
+    "file": "assets/Input-w9vKZgSM.js",
+    "name": "Input",
+    "imports": [
+      "src/main.jsx"
+    ],
+    "css": [
+      "assets/Input-4TFEiNt8.css"
+    ]
+  },
+  "_LoginPage-CyTrcp3r.css": {
+    "file": "assets/LoginPage-CyTrcp3r.css",
+    "src": "_LoginPage-CyTrcp3r.css"
+  },
+  "_LoginPage.module-Bs-2flAq.js": {
+    "file": "assets/LoginPage.module-Bs-2flAq.js",
+    "name": "LoginPage.module",
+    "css": [
+      "assets/LoginPage-CyTrcp3r.css"
+    ]
+  },
+  "_NavBar-BEY7Tt1R.js": {
+    "file": "assets/NavBar-BEY7Tt1R.js",
+    "name": "NavBar",
+    "imports": [
+      "src/main.jsx"
+    ],
+    "css": [
+      "assets/NavBar-DZ398Kn6.css"
+    ]
+  },
+  "_NavBar-DZ398Kn6.css": {
+    "file": "assets/NavBar-DZ398Kn6.css",
+    "src": "_NavBar-DZ398Kn6.css"
+  },
+  "_Select-Bv-Ub-29.js": {
+    "file": "assets/Select-Bv-Ub-29.js",
+    "name": "Select",
+    "imports": [
+      "src/main.jsx",
+      "_Input-w9vKZgSM.js"
+    ]
+  },
+  "_StarBorder-D9c1N4GU.css": {
+    "file": "assets/StarBorder-D9c1N4GU.css",
+    "src": "_StarBorder-D9c1N4GU.css"
+  },
+  "_StarBorder-DLOM4uA7.js": {
+    "file": "assets/StarBorder-DLOM4uA7.js",
+    "name": "StarBorder",
+    "imports": [
+      "src/main.jsx"
+    ],
+    "css": [
+      "assets/StarBorder-D9c1N4GU.css"
+    ]
+  },
+  "_WorkshopTypesPage-DhUXGlIp.css": {
+    "file": "assets/WorkshopTypesPage-DhUXGlIp.css",
+    "src": "_WorkshopTypesPage-DhUXGlIp.css"
+  },
+  "_WorkshopTypesPage.module-B9uBO_56.js": {
+    "file": "assets/WorkshopTypesPage.module-B9uBO_56.js",
+    "name": "WorkshopTypesPage.module",
+    "css": [
+      "assets/WorkshopTypesPage-DhUXGlIp.css"
+    ]
+  },
+  "_index-DiGWB_Sq.js": {
+    "file": "assets/index-DiGWB_Sq.js",
+    "name": "index",
+    "imports": [
+      "src/main.jsx",
+      "_proxy-BMb16-zJ.js"
+    ]
+  },
+  "_proxy-BMb16-zJ.js": {
+    "file": "assets/proxy-BMb16-zJ.js",
+    "name": "proxy",
+    "imports": [
+      "src/main.jsx"
+    ]
+  },
+  "src/main.jsx": {
+    "file": "assets/main-nvL9Dkly.js",
+    "name": "main",
+    "src": "src/main.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/pages/LoginPage.jsx",
+      "src/pages/RegisterPage.jsx",
+      "src/pages/ActivationPage.jsx",
+      "src/pages/LogoutPage.jsx",
+      "src/pages/WorkshopTypesPage.jsx",
+      "src/pages/WorkshopTypeDetailPage.jsx",
+      "src/pages/WorkshopDetailPage.jsx",
+      "src/pages/ProposeWorkshopPage.jsx",
+      "src/pages/CoordinatorDashPage.jsx",
+      "src/pages/InstructorDashPage.jsx",
+      "src/pages/ProfilePage.jsx",
+      "src/pages/AddWorkshopTypePage.jsx",
+      "src/pages/EditWorkshopTypePage.jsx",
+      "src/pages/PasswordChangePage.jsx",
+      "src/pages/PasswordResetPage.jsx",
+      "src/pages/PublicStatsPage.jsx",
+      "src/pages/TeamStatsPage.jsx"
+    ],
+    "css": [
+      "assets/main-BScDxpq_.css"
+    ]
+  },
+  "src/pages/ActivationPage.jsx": {
+    "file": "assets/ActivationPage-BdZj3Qgd.js",
+    "name": "ActivationPage",
+    "src": "src/pages/ActivationPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_NavBar-BEY7Tt1R.js",
+      "_Button-BNXsJe1U.js",
+      "_LoginPage.module-Bs-2flAq.js",
+      "_proxy-BMb16-zJ.js"
+    ]
+  },
+  "src/pages/AddWorkshopTypePage.jsx": {
+    "file": "assets/AddWorkshopTypePage-RRVc6oQ0.js",
+    "name": "AddWorkshopTypePage",
+    "src": "src/pages/AddWorkshopTypePage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_NavBar-BEY7Tt1R.js",
+      "_Card-CcJ9tOA7.js",
+      "_Input-w9vKZgSM.js",
+      "_Button-BNXsJe1U.js",
+      "_Alert-C_vS7CYq.js",
+      "_WorkshopTypesPage.module-B9uBO_56.js",
+      "_proxy-BMb16-zJ.js"
+    ]
+  },
+  "src/pages/CoordinatorDashPage.jsx": {
+    "file": "assets/CoordinatorDashPage-EZkEtTCb.js",
+    "name": "CoordinatorDashPage",
+    "src": "src/pages/CoordinatorDashPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_NavBar-BEY7Tt1R.js",
+      "_Card-CcJ9tOA7.js",
+      "_Badge-BjU-i2zX.js",
+      "_StarBorder-DLOM4uA7.js",
+      "_Button-BNXsJe1U.js",
+      "_AnimatedContainer-BajsBZOH.js",
+      "_proxy-BMb16-zJ.js",
+      "_index-DiGWB_Sq.js",
+      "_WorkshopTypesPage.module-B9uBO_56.js"
+    ],
+    "css": [
+      "assets/CoordinatorDashPage-DtnXk-w-.css"
+    ]
+  },
+  "src/pages/EditWorkshopTypePage.jsx": {
+    "file": "assets/EditWorkshopTypePage-D-pqSz1V.js",
+    "name": "EditWorkshopTypePage",
+    "src": "src/pages/EditWorkshopTypePage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_NavBar-BEY7Tt1R.js",
+      "_Card-CcJ9tOA7.js",
+      "_Input-w9vKZgSM.js",
+      "_Button-BNXsJe1U.js",
+      "_WorkshopTypesPage.module-B9uBO_56.js",
+      "_proxy-BMb16-zJ.js"
+    ]
+  },
+  "src/pages/InstructorDashPage.jsx": {
+    "file": "assets/InstructorDashPage-Ck3XdQSp.js",
+    "name": "InstructorDashPage",
+    "src": "src/pages/InstructorDashPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_NavBar-BEY7Tt1R.js",
+      "_Card-CcJ9tOA7.js",
+      "_Badge-BjU-i2zX.js",
+      "_StarBorder-DLOM4uA7.js",
+      "_Button-BNXsJe1U.js",
+      "_AnimatedContainer-BajsBZOH.js",
+      "_proxy-BMb16-zJ.js",
+      "_index-DiGWB_Sq.js",
+      "_WorkshopTypesPage.module-B9uBO_56.js"
+    ],
+    "css": [
+      "assets/InstructorDashPage-CxgLVKkT.css"
+    ]
+  },
+  "src/pages/LoginPage.jsx": {
+    "file": "assets/LoginPage-CHv9G7Y2.js",
+    "name": "LoginPage",
+    "src": "src/pages/LoginPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_NavBar-BEY7Tt1R.js",
+      "_Input-w9vKZgSM.js",
+      "_Button-BNXsJe1U.js",
+      "_Alert-C_vS7CYq.js",
+      "_AuroraBg-DcFvToSs.js",
+      "_AnimatedContainer-BajsBZOH.js",
+      "_LoginPage.module-Bs-2flAq.js",
+      "_proxy-BMb16-zJ.js"
+    ]
+  },
+  "src/pages/LogoutPage.jsx": {
+    "file": "assets/LogoutPage-C9op0ArP.js",
+    "name": "LogoutPage",
+    "src": "src/pages/LogoutPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_LoginPage.module-Bs-2flAq.js"
+    ]
+  },
+  "src/pages/PasswordChangePage.jsx": {
+    "file": "assets/PasswordChangePage-DzFpz_uD.js",
+    "name": "PasswordChangePage",
+    "src": "src/pages/PasswordChangePage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_NavBar-BEY7Tt1R.js",
+      "_Input-w9vKZgSM.js",
+      "_Button-BNXsJe1U.js",
+      "_Alert-C_vS7CYq.js",
+      "_LoginPage.module-Bs-2flAq.js",
+      "_proxy-BMb16-zJ.js"
+    ]
+  },
+  "src/pages/PasswordResetPage.jsx": {
+    "file": "assets/PasswordResetPage-CmUngSGw.js",
+    "name": "PasswordResetPage",
+    "src": "src/pages/PasswordResetPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_Input-w9vKZgSM.js",
+      "_Button-BNXsJe1U.js",
+      "_Alert-C_vS7CYq.js",
+      "_LoginPage.module-Bs-2flAq.js",
+      "_proxy-BMb16-zJ.js"
+    ]
+  },
+  "src/pages/ProfilePage.jsx": {
+    "file": "assets/ProfilePage-BVAvjBwX.js",
+    "name": "ProfilePage",
+    "src": "src/pages/ProfilePage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_NavBar-BEY7Tt1R.js",
+      "_Card-CcJ9tOA7.js",
+      "_Input-w9vKZgSM.js",
+      "_Select-Bv-Ub-29.js",
+      "_Button-BNXsJe1U.js",
+      "_Badge-BjU-i2zX.js",
+      "_WorkshopTypesPage.module-B9uBO_56.js",
+      "_proxy-BMb16-zJ.js"
+    ]
+  },
+  "src/pages/ProposeWorkshopPage.jsx": {
+    "file": "assets/ProposeWorkshopPage-DZqQsWOG.js",
+    "name": "ProposeWorkshopPage",
+    "src": "src/pages/ProposeWorkshopPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_NavBar-BEY7Tt1R.js",
+      "_Card-CcJ9tOA7.js",
+      "_Input-w9vKZgSM.js",
+      "_Select-Bv-Ub-29.js",
+      "_Button-BNXsJe1U.js",
+      "_Alert-C_vS7CYq.js",
+      "_AnimatedContainer-BajsBZOH.js",
+      "_WorkshopTypesPage.module-B9uBO_56.js",
+      "_index-DiGWB_Sq.js",
+      "_proxy-BMb16-zJ.js"
+    ]
+  },
+  "src/pages/PublicStatsPage.jsx": {
+    "file": "assets/PublicStatsPage-B6sJ8f4M.js",
+    "name": "PublicStatsPage",
+    "src": "src/pages/PublicStatsPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_NavBar-BEY7Tt1R.js",
+      "_Card-CcJ9tOA7.js",
+      "_Badge-BjU-i2zX.js",
+      "_BarChart-CGyvT_1j.js",
+      "_AnimatedContainer-BajsBZOH.js",
+      "_proxy-BMb16-zJ.js"
+    ]
+  },
+  "src/pages/RegisterPage.jsx": {
+    "file": "assets/RegisterPage-DftswhxZ.js",
+    "name": "RegisterPage",
+    "src": "src/pages/RegisterPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_NavBar-BEY7Tt1R.js",
+      "_Input-w9vKZgSM.js",
+      "_Select-Bv-Ub-29.js",
+      "_Button-BNXsJe1U.js",
+      "_Alert-C_vS7CYq.js",
+      "_AuroraBg-DcFvToSs.js",
+      "_AnimatedContainer-BajsBZOH.js",
+      "_LoginPage.module-Bs-2flAq.js",
+      "_proxy-BMb16-zJ.js"
+    ],
+    "css": [
+      "assets/RegisterPage-BndvasPv.css"
+    ]
+  },
+  "src/pages/TeamStatsPage.jsx": {
+    "file": "assets/TeamStatsPage-B14vsGzn.js",
+    "name": "TeamStatsPage",
+    "src": "src/pages/TeamStatsPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_NavBar-BEY7Tt1R.js",
+      "_Card-CcJ9tOA7.js",
+      "_BarChart-CGyvT_1j.js",
+      "_proxy-BMb16-zJ.js"
+    ]
+  },
+  "src/pages/WorkshopDetailPage.jsx": {
+    "file": "assets/WorkshopDetailPage-B3zfaao7.js",
+    "name": "WorkshopDetailPage",
+    "src": "src/pages/WorkshopDetailPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_NavBar-BEY7Tt1R.js",
+      "_Card-CcJ9tOA7.js",
+      "_Badge-BjU-i2zX.js",
+      "_Button-BNXsJe1U.js",
+      "_WorkshopTypesPage.module-B9uBO_56.js",
+      "_proxy-BMb16-zJ.js"
+    ]
+  },
+  "src/pages/WorkshopTypeDetailPage.jsx": {
+    "file": "assets/WorkshopTypeDetailPage-D7Kgl9sg.js",
+    "name": "WorkshopTypeDetailPage",
+    "src": "src/pages/WorkshopTypeDetailPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_NavBar-BEY7Tt1R.js",
+      "_Card-CcJ9tOA7.js",
+      "_Badge-BjU-i2zX.js",
+      "_WorkshopTypesPage.module-B9uBO_56.js",
+      "_proxy-BMb16-zJ.js"
+    ]
+  },
+  "src/pages/WorkshopTypesPage.jsx": {
+    "file": "assets/WorkshopTypesPage-CvX4uSCq.js",
+    "name": "WorkshopTypesPage",
+    "src": "src/pages/WorkshopTypesPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.jsx",
+      "_NavBar-BEY7Tt1R.js",
+      "_Card-CcJ9tOA7.js",
+      "_Badge-BjU-i2zX.js",
+      "_Button-BNXsJe1U.js",
+      "_WorkshopTypesPage.module-B9uBO_56.js",
+      "_proxy-BMb16-zJ.js"
+    ]
+  }
+}

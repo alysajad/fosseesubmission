@@ -1,0 +1,91 @@
+/**
+ * FOSSEE Workshop Booking — Base Layout Overrides
+ * Imports the design system; adds any page-level adjustments.
+ */
+
+/* Django-rendered form error lists */
+.errorlist {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-1) 0 0;
+}
+
+.errorlist li {
+  color: var(--color-error);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  margin-bottom: var(--space-1);
+}
+
+/* Django form table rendering — override for styled forms */
+table.fossee-form-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table.fossee-form-table td,
+table.fossee-form-table th {
+  padding: var(--space-2) 0;
+  border: none;
+  vertical-align: top;
+}
+table.fossee-form-table th {
+  text-align: left;
+  font-weight: 500;
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  padding-right: var(--space-4);
+  white-space: nowrap;
+}
+
+/* jQuery UI datepicker — override its default styles to match our design system */
+.ui-datepicker {
+  font-family: 'DM Sans', sans-serif !important;
+  border-radius: var(--radius-lg) !important;
+  box-shadow: var(--shadow-modal) !important;
+  border: 1px solid var(--color-divider) !important;
+  padding: var(--space-3) !important;
+}
+
+.ui-datepicker-header {
+  background: var(--color-primary) !important;
+  border: none !important;
+  border-radius: var(--radius-md) !important;
+  color: #fff !important;
+  font-family: 'Sora', sans-serif !important;
+}
+
+.ui-datepicker td a {
+  border-radius: var(--radius-sm) !important;
+  transition: background 0.15s !important;
+}
+
+.ui-datepicker td a.ui-state-active {
+  background: var(--color-accent) !important;
+  color: var(--color-primary) !important;
+  border-color: var(--color-accent) !important;
+}
+
+.ui-datepicker td a:hover {
+  background: rgba(10,37,64,0.08) !important;
+}
+
+/* Ensure jQuery UI dialog matches our modal style */
+.ui-dialog {
+  border-radius: var(--radius-xl) !important;
+  box-shadow: var(--shadow-modal) !important;
+  border: none !important;
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+  background: var(--color-primary) !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: var(--radius-xl) var(--radius-xl) 0 0 !important;
+  font-family: 'Sora', sans-serif !important;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+  font-family: 'Sora', sans-serif !important;
+  border-radius: var(--radius-md) !important;
+}

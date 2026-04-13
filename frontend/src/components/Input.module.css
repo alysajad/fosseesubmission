@@ -1,0 +1,50 @@
+.group { margin-bottom: var(--space-5); }
+.label { display: block; font-family: 'DM Sans', sans-serif; font-size: var(--text-sm); font-weight: 500; color: var(--color-text-primary); margin-bottom: var(--space-2); }
+.required::after { content: ' *'; color: var(--color-error); }
+
+.wrapper { position: relative; display: flex; align-items: center; }
+.hasPrefix .input { padding-left: 52px; }
+
+.prefix {
+  position: absolute; left: 0; top: 0; bottom: 0;
+  display: flex; align-items: center; padding: 0 var(--space-3);
+  font-family: 'DM Sans', sans-serif; font-size: var(--text-sm); font-weight: 600;
+  color: var(--color-text-secondary); background: var(--color-bg);
+  border-right: 1.5px solid var(--color-border); border-radius: var(--radius-md) 0 0 var(--radius-md);
+  pointer-events: none;
+}
+
+.input {
+  width: 100%; height: 52px;
+  padding: var(--space-3) var(--space-4);
+  font-family: 'DM Sans', sans-serif; font-size: var(--text-base); color: var(--color-text-primary);
+  background: var(--color-surface);
+  border: 1.5px solid var(--color-border); border-radius: var(--radius-md);
+  transition: border-color var(--duration-fast), box-shadow var(--duration-fast);
+  outline: none;
+}
+.input::placeholder { color: var(--color-text-secondary); opacity: 0.6; }
+.input:focus { border-color: var(--color-primary); box-shadow: 0 0 0 3px rgba(10,37,64,0.08); }
+
+.hasError .input { border-color: var(--color-error); }
+.hasError .input:focus { box-shadow: 0 0 0 3px rgba(217,48,37,0.1); }
+
+.toggle {
+  position: absolute; right: var(--space-3); top: 50%; transform: translateY(-50%);
+  background: none; border: none; cursor: pointer;
+  color: var(--color-text-secondary); padding: var(--space-1);
+  display: flex; align-items: center; justify-content: center;
+  border-radius: var(--radius-sm); transition: color 150ms;
+}
+.toggle:hover { color: var(--color-text-primary); }
+
+.help { font-size: var(--text-xs); color: var(--color-text-secondary); margin-top: var(--space-1); }
+.error { font-size: var(--text-xs); color: var(--color-error); margin-top: var(--space-1); animation: shake 400ms ease; }
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-4px); }
+  40% { transform: translateX(4px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+}

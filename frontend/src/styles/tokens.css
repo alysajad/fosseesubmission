@@ -1,0 +1,83 @@
+/* Design Tokens */
+
+:root {
+  /* Colors */
+  --color-primary:       #0A2540;
+  --color-primary-light: #1A3A5C;
+  --color-accent:        #F5A623;
+  --color-accent-light:  #FDD17B;
+  --color-surface:       #FFFFFF;
+  --color-bg:            #F4F6FA;
+  --color-bg-dark:       #0A2540;
+
+
+  --color-success:       #1DB954;
+  --color-warning:       #E5A100;
+  --color-error:         #D93025;
+  --color-info:          #1A73E8;
+
+
+  --color-text-primary:  #0A2540;
+  --color-text-secondary:#556070;
+  --color-text-on-dark:  #FFFFFF;
+
+
+  --color-border:        #D0D8E4;
+  --color-divider:       #EBF0F7;
+
+  /* Typography */
+  --text-xs:   0.75rem;
+  --text-sm:   0.8125rem;
+  --text-base: 0.9375rem;
+  --text-md:   1.125rem;
+  --text-lg:   1.375rem;
+  --text-xl:   1.75rem;
+  --text-hero: 2rem;
+
+  --lh-body:    1.65;
+  --lh-heading: 1.2;
+
+  /* Spacing */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  24px;
+  --space-6:  32px;
+  --space-8:  48px;
+  --space-10: 64px;
+  --space-12: 80px;
+
+  /* Border Radius */
+  --radius-sm:   6px;
+  --radius-md:   10px;
+  --radius-lg:   16px;
+  --radius-xl:   24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-card:       0 2px 8px rgba(10,37,64,0.08);
+  --shadow-card-hover: 0 8px 24px rgba(10,37,64,0.14);
+  --shadow-nav:        0 2px 12px rgba(10,37,64,0.10);
+  --shadow-modal:      0 16px 48px rgba(10,37,64,0.20);
+
+  /* Transitions */
+  --ease-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 200ms;
+  --duration-slow: 300ms;
+  --duration-drawer: 250ms;
+}
+
+/* Desktop type scale overrides */
+@media (min-width: 1024px) {
+  :root {
+    --text-xs:   0.8125rem;
+    --text-sm:   0.875rem;
+    --text-base: 1rem;
+    --text-md:   1.25rem;
+    --text-lg:   1.625rem;
+    --text-xl:   2.25rem;
+    --text-hero: 3rem;
+  }
+}

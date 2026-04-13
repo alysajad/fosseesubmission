@@ -1,0 +1,49 @@
+.starBorder {
+  position: relative;
+  display: inline-block;
+  padding: 1px; /* border thickness */
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.borderAnim {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  z-index: 0;
+}
+
+.radialGradient {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  animation: rotate linear infinite;
+  z-index: 0;
+}
+
+.innerContent {
+  position: relative;
+  background: var(--color-bg);
+  border-radius: calc(var(--radius-md) - 1px);
+  padding: var(--space-2) var(--space-4);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
